@@ -55,7 +55,7 @@ SELECT *
 FROM company_year_rank
 WHERE ranking <=5;
 
--- Which companies maximized profit while keeping layoffs low?
+-- Which companies maximized funding while keeping layoffs low?
 WITH company_stats AS (
   SELECT 
     company,
